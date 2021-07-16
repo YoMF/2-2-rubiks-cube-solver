@@ -1,6 +1,8 @@
 
 # 2*2 Rubik's Cube Solver
-
+<img src="https://github.com/YoMF/shared-assets/blob/142e5537330c71f20f6b26fc9ca3d7a139e0cee7/cube-YOB.png" width=100 height=100/>
+  
+  
 ## Description
 This Project solves the [pocket cube](https://en.wikipedia.org/wiki/Pocket_Cube) without the optimization using group theory. The basic idea is to do a breath first search of all the possible permutation of the cube. When a cube is already encountered then the iteration breaks. We use a binary search tree to store all the permutations which enable us with a ```O(lgn)``` search time.<br><br>
 Storing all the values are possible since we know that the no.of.possible states/permutations of pocket cube is ```< 4*10^6``` refer [here](https://en.wikipedia.org/wiki/Pocket_Cube).
