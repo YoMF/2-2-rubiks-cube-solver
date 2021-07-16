@@ -6,7 +6,7 @@ This Project solves the [pocket cube](https://en.wikipedia.org/wiki/Pocket_Cube)
 Storing all the values are possible since we know that the no.of.possible states/permutations of pocket cube is ```< 4*10^6``` refer [here](https://en.wikipedia.org/wiki/Pocket_Cube).
 
 Space complexity : ```O(n)```  
-Time complexity : ```O(nlg(n))``` ->since we do one check per cube.  
+Time complexity : ```O(n*lg(n))``` *since we do one check per cube.*  
 where n is the no.of.possible states of the cube.
 
 ## How to Use
