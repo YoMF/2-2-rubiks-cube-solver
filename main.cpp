@@ -149,17 +149,11 @@ public:
 
 int main()
 {
-    // Cube c;
+    Cube c;
 
-    // Bfs bfs(c);
-    // bfs.run();
-    // bfs.results();
-
-    Bar a(40);
-    for(int i = 1; i <= 1000; i++)
-    {
-        a.update((float)i/10);
-    }
+    Bfs bfs(c);
+    bfs.run();
+    bfs.results();
 
     // bfs.write_to_disk(); // saves the solution in current working directory.
 }
